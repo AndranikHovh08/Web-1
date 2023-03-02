@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* header */
+header{
+    height: 800px;
+    background-image: url(../img/header.jpeg);
+    background-size: cover;
+}
+header .main-div{
+    padding-top: 30%;
+    padding-right: 10%;
+    padding-left: 60%;
+  
+}
+header .small-div {
+    width: 400px;
+}
+header .small-div h1{
+    margin-top: 0;
+    color: white;
+    font-size: 100px;
+}
+/* sec1 */
+.sec1{
+    height: 600px;
+}
+.sec1 .main-div{
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.sec1 .main-div div{
+    width: 500px;
+
+}
+.sec1 .d-2{
+    background-image: url(../img/1-1.jpeg);
+    background-size: cover;
+}
+.sec1 .d-1 h1{
+    font-size: 60px;
+}
+.sec1 .d-1 p{
+    font-size: 18px;
+    color: rgba(21, 21, 21, 1);
+}
+/* sec2 */
+.sec2{
+    background-color: #292d33;
+    color: white;
+    padding: 50px;
+}
+
+.sec2 .d-1{
+    width: 600px;
+    padding-left: 10%;
+}
+.sec2 .d-1 h1{
+    font-size: 60px;
+}
+.sec2 .d-1 p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.sec2 .d-2{
+    margin-top: 5%;
+}
+.sec2 .d-2 ul{
+    display: flex;
+    justify-content: space-around;    
+}
+.sec2 .d-2 li{
+    list-style: none;
+}
+.sec2 .d-2 li i{
+    font-size: 50px;
+}
+.sec2 .d-2 li h1{
+    font-size: 35px;
+}
+/* sec3 */
+.sec3{
+    height: 1000px;
+    padding: 100px;
+}
+.sec3 .main-div{
+    display: flex;
+    justify-content: space-around;
+}
+.sec3 .d-4{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 5%;
+}
+.sec3 .d-4 img{
+    width: 400px;
+    height: 300px;
+}
+.sec3 .d-4 h1{
+    font-size: 80px;
+    margin: 0;
+}
+/* sec4 */
+.sec4{
+    height: 400px;
+    background-color: #3e4a59;
+    color: white;
+    padding: 50px;
+}
+.sec4 .main-div{
+    padding: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.sec4 .d-1{
+    width: 350px;
+}
+.sec4 .d-1 h1{
+    font-size: 65px;
+    margin: 0;
+}
+.sec4 .d-2{
+    width: calc(100% - 650px);
+}
+.sec4 .d-2 p{
+    font-size: 18px;
+}
+.sec4 button{
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin-top: 5%;
+}
+.sec4 button:hover{
+    background-color: whitesmoke;
+}
+/* sec5 */
+.sec5{
+    height: 700px;
+    padding: 150px;
+
+}
+.sec5 .d-1{
+    height: 350px;
+    padding-left: 50%;
+}
+.sec5 .d-1-1{
+    width: 350px;
+}
+.sec5 .d-1 h1{
+    font-size: 60px;
+}
+.sec5 .d-2{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec5 .d-2 div{
+    width: 450px;
+}
+.sec5 .img-div-1{
+    height: 150px;
+    width: 150px !important;
+    border-radius: 50%;
+    background-image: url(../img/5-1.jpeg);
+    background-size: cover;
+}
+.sec5 .img-div-2{
+    height: 150px;
+    width: 150px !important ;
+    border-radius: 50%;
+    background-image: url(../img/5-2.jpeg);
+    background-size: cover;
+}
+/* sec6 */
+.sec6{
+    height: 700px;
+}
+.sec6 .d-1{
+    display: flex;
+}
+.sec6 .d-1 div{
+    width: 50%;
+    height: 350px;
+}
+.sec6 .d-1-1{
+    background-image: url(../img/6-1.jpeg);
+    background-size: cover;
+}
+.sec6 .d-1-2{
+    background-image: url(../img/6-2.jpeg);
+    background-size: cover;
+}
+.sec6 .d-2-1{
+    background-image: url(../img/6-3.jpeg);
+    background-size: cover;
+}
+.sec6 .d-2-2{
+    background-image: url(../img/6-4.jpg);
+    background-size: cover;
+}
+/* sec7 */
+.sec7{
+    height: 600px;
+    background-image: url(../img/7-1.jpeg);
+    background-size: cover;
+    padding: 100px 150px;
+}
+.sec7 .main-div{
+    padding-top: 15%;
+    display: flex;
+    justify-content: center;
+}
+.sec7 .d-1{
+    width: 500px;
+    height: 400px;
+    background-image: url(../img/map.png);
+    background-size: cover;
+}
+.sec7 .d-2{
+    padding: 60px 40px;
+    width: 400px;
+    height: 280px;
+    background-color: #292d33;
+    color: white;
+}
+.sec7 .d-2 h1{
+    font-size: 30px;
+}
+.sec7 .d-2 p{
+    font-size: 20px;
+}
+.sec7 .d-2 a{
+    text-decoration: none;
+    color: #73a3de;
+}
+.sec7 .d-2 a:hover{
+    color: #3e4a59;
+}
+.sec7 .d-3{
+    width: 300px;
+    height: 400px;
+    background-image: url(../img/7-2.jpeg);
+    background-size: cover;
+}
+/* footer */
+footer{
+    height: 100px;
+    background-color: #292d33;
+    padding-top: 3%;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    color: white;
+    margin: 10px;
+    margin-bottom: 0;
+    margin-bottom: 0;
+}
+footer a{
+    margin-top: 0.5%;
+    color: #73a3de;
+}
+footer a:hover{
+    color: #3e4a59;
+    text-decoration: none;
+}
